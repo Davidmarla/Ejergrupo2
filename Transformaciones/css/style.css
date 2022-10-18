@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.padre {
+    margin: 5rem auto;
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    font-size: 2rem;
+    position: relative;
+}
+
+.padre > div {
+    display: block;
+}
+
+.rojo {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotate(180deg);
+    transform-origin: left top;
+}
+
+.azul {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: rgb(0, 60, 255);
+    position: absolute;
+    bottom: 0;
+    transform-origin: bottom left;
+}
+
+.amar {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: rgb(255, 234, 0);
+    position: absolute;
+    top: 0;
+    right: -0px;
+}
+
+.verde {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: rgb(0, 255, 21);
+    position: absolute;
+    bottom: 0;
+    right: -0px;
+}
